@@ -17,7 +17,7 @@
 
             <a href="" style="padding-right: 30px;">
               <img src="<?php echo get_template_directory_uri(  ).'/imgs/logo/logo-akevia.png' ?>" alt="Logo Akevia" style="width: 100px;">
-              <span><i class="fa-solid fa-arrow-right"></i></span>
+              <!-- <span><i class="fa-solid fa-arrow-right"></i></span> -->
             </a>
             <div class="hero__title-wrapper">
               <h1 class="hero__title">Let's be brave.<br><i>Together</i></h1>
@@ -27,7 +27,7 @@
                 which is what we deliver.
               </p>
             </div>
-            <img src="<?php echo get_template_directory_uri(  ).'/imgs/icon/arrow-down-big.png';?>" alt="Arrow Down Icon">
+            <!-- <img src="<?php echo get_template_directory_uri(  ).'/imgs/icon/arrow-down-big.png';?>" alt="Arrow Down Icon"> -->
             <!-- <div class="experience">
               <h2 class="title">Transforming</h2>
               <p> brands through borderless creativity.</p>
