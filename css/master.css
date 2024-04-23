@@ -6549,7 +6549,6 @@ img {
   line-height: 1.5;
   color: var(--white);
   padding-bottom: 15px;
-  border-bottom: 1px solid var(--white);
   position: relative;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;

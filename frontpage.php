@@ -16,7 +16,7 @@
           <div class="hero__content animation__hero_one">
 
             <a href="" style="padding-right: 30px;">
-              <img src="<?php echo get_template_directory_uri(  ).'/imgs/logo/logo-akevia.png' ?>" alt="Logo Akevia" style="width: 100px;">
+              <img src="<?php echo get_template_directory_uri(  ).'/imgs/logo/logo-akevia.png' ?>" alt="Logo Akevia" style="width: 185px;">
               <!-- <span><i class="fa-solid fa-arrow-right"></i></span> -->
             </a>
             <div class="hero__title-wrapper">
@@ -123,7 +123,7 @@
       <div class="row">
         <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
           <div class="sec-title-wrapper wrap">
-            <h2 class="sec-sub-title title-anim">service</h2>
+            <h2 class="sec-sub-title title-anim">services</h2>
             <h3 class="sec-title title-anim">We are a 360 Agency</h3>
           </div>
         </div>
