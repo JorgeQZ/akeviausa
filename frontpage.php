@@ -32,8 +32,12 @@
     </div>
 
 
-    <video class="hero1_bg" autoplay loop muted>
-      <source src="<?php echo get_template_directory_uri(  ).'/video/akevia-bg-video.webm'; ?>">
+    <video class="hero1_bg" autoplay loop muted src="<?php echo get_template_directory_uri(  ).'/video/modified.mp4'; ?>">
+
+      <source src="<?php echo get_template_directory_uri(  ).'/video/modified.mp4'; ?>" type='video/mp4'>
+      <source src="<?php echo get_template_directory_uri(  ).'/video/akevia-bg-video.mp4'; ?>" type='video/mp4'>
+      <source src="<?php echo get_template_directory_uri(  ).'/video/akevia-bg-video.webm'; ?>" type='video/webm'>
+
     </video>
   </section>
   <!-- Hero area end -->
