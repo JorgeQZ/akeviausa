@@ -46,6 +46,18 @@
       line-height: 1;
       text-transform: uppercase;
       color: var(--black);
+
+      @media #{$sm} {
+        font-size: 17px;
+      }
+
+      @media #{$xl} {
+        font-size: 17px;
+      }
+
+      @media #{$xxl} {
+        font-size: 18px;
+      }
     }
   }
 }

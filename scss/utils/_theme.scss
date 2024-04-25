@@ -163,7 +163,7 @@ img {
   &::after {
     position: absolute;
     content: "";
-    width: 1px;
+    width: 0px;
     height: 500px;
     left: 0;
     bottom: -400px;

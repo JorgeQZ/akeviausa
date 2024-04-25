@@ -8,6 +8,7 @@
     background-color: var(--black);
     position: relative;
     overflow: hidden;
+    height: 800px;
 
     &::after {
       position: absolute;
@@ -24,9 +25,43 @@
       bottom: 0;
       z-index: 0;
       left: 0;
-      width: auto;
-      height: 100%;
-      animation: wcRotate 18s infinite linear;
+
+      @media #{$xs} {
+        height: 100%;
+        left: -100%;
+
+      }
+
+      @media #{$sm} {
+        height: 100%;
+        left: -100%;
+
+      }
+
+      @media #{$md} {
+        height: 100%;
+        left: -70%;
+      }
+
+      @media #{$lg} {
+        height: 100%;
+        left: -50%;
+      }
+
+      @media #{$xl} {
+        height: 100%;
+        left: -10%;
+      }
+
+
+      @media #{$xxl} {
+        height: 100%;
+
+      }
+
+      @media #{$xxxl} {
+        width: 100%;
+      }
     }
 
     &-2 {
@@ -911,7 +946,15 @@
 
     @media #{$xl} {
       bottom: -10px;
-      right: -150px;
+      right: -250px;
+    }
+
+    @media #{$xxl} {
+      right: -180px;
+    }
+
+    @media #{$xxxl} {
+      right: -200px;
     }
 
     @media #{$lg} {
@@ -921,7 +964,7 @@
     @media #{$md} {
       font-size: 16px;
       bottom: -10px;
-      right: -50px;
+      right: -90px;
     }
 
     @media #{$sm} {

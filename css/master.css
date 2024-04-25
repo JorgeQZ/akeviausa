@@ -733,7 +733,7 @@ img {
 .footer-line::after {
   position: absolute;
   content: "";
-  width: 1px;
+  width: 0px;
   height: 500px;
   left: 0;
   bottom: -400px;
@@ -5790,6 +5790,7 @@ img {
   background-color: var(--black);
   position: relative;
   overflow: hidden;
+  height: 800px;
 }
 .hero__area::after {
   position: absolute;
@@ -5805,10 +5806,46 @@ img {
   bottom: 0;
   z-index: 0;
   left: 0;
-  width: auto;
-  height: 100%;
-  -webkit-animation: wcRotate 18s infinite linear;
-          animation: wcRotate 18s infinite linear;
+}
+@media (max-width: 575px) {
+  .hero__area .hero1_bg {
+    height: 100%;
+    left: -100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero__area .hero1_bg {
+    height: 100%;
+    left: -100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero__area .hero1_bg {
+    height: 100%;
+    left: -70%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero__area .hero1_bg {
+    height: 100%;
+    left: -50%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .hero__area .hero1_bg {
+    height: 100%;
+    left: -10%;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1919px) {
+  .hero__area .hero1_bg {
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .hero__area .hero1_bg {
+    width: 100%;
+  }
 }
 .hero__area-2 {
   background-image: url(../imgs/bg/lines.png);
@@ -6744,7 +6781,17 @@ img {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__sub-title {
     bottom: -10px;
-    right: -150px;
+    right: -250px;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1919px) {
+  .hero__sub-title {
+    right: -180px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .hero__sub-title {
+    right: -200px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -6756,7 +6803,7 @@ img {
   .hero__sub-title {
     font-size: 16px;
     bottom: -10px;
-    right: -50px;
+    right: -90px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -7239,6 +7286,21 @@ img {
   line-height: 1;
   text-transform: uppercase;
   color: var(--black);
+}
+@media only screen and (max-width: 767px) {
+  .roll__slide h2 {
+    font-size: 17px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .roll__slide h2 {
+    font-size: 17px;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1919px) {
+  .roll__slide h2 {
+    font-size: 18px;
+  }
 }
 
 .contact_wrap {
@@ -8635,8 +8697,8 @@ img {
   }
 }
 .service__img-wrapper span.current {
-  -webkit-transform: rotate(-26deg) translate(120px, -100%);
-          transform: rotate(-26deg) translate(120px, -100%);
+  -webkit-transform: rotate(-26deg) translate(170px, -30%);
+          transform: rotate(-26deg) translate(170px, -30%);
 }
 .service__img-3 {
   position: relative;
@@ -21284,17 +21346,17 @@ img {
   text-align: right;
 }
 .footer__top img {
-  margin-bottom: -380px;
+  margin-bottom: -180px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer__top img {
-    margin-bottom: -300px;
+    margin-bottom: -100px;
     width: 90%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer__top img {
-    margin-bottom: -250px;
+    margin-bottom: -150px;
     width: 100%;
   }
 }
