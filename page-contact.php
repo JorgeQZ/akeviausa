@@ -11,10 +11,18 @@
     }
 </style>
 <main>
+
+  <!-- Hero area end -->
     <!-- Contact area start -->
     <section class="contact__area-6">
         <div class="container g-0 line pt-120 pb-110">
         <span class="line-3"></span>
+        <div class="hero__content" style="padding-top: 0; ">
+            <a href="<?php echo home_url(); ?>" style="padding-right: 30px;">
+              <img src="<?php echo get_template_directory_uri(  ).'/imgs/akevia/logo-akevia-black.png' ?>" alt="Logo Akevia" style="width: 185px;">
+            </a>
+            </div>
+
         <div class="row">
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
             <div class="sec-title-wrapper">
@@ -23,8 +31,7 @@
             </div>
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
             <div class="contact__text">
-                <p>Great! We're excited to hear from you and let's start
-                something special togerter. call us for any inquery.</p>
+                <p>Let's start something special together! Send us a message and we will get in touch with you shortly.</p>
             </div>
             </div>
         </div>

@@ -17,20 +17,20 @@
                     </a>
                     <p>Welcome to our revolution. <br>Brand Revolution®</p>
                     <ul class="footer__social">
-                      <li><a href="#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
+                      <li><a target="_blank" href="https://www.instagram.com/akevia_usa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><span><i class="fa-brands fa-instagram"></i></span></a></li>
                     </ul>
                   </div>
 
                   <div class="footer__widget-2">
+                    <h2 class="footer__widget-title">Contact Us</h2>
+                      <ul class="footer__contact">
 
+                        <li><a href="mailto:info@akevia.com">info@akevia.com</a></li>
+                      </ul>
                   </div>
 
                   <div class="footer__widget-3">
-                    <h2 class="footer__widget-title">Contact Us</h2>
-                    <ul class="footer__contact">
 
-                      <li><a href="mailto:info@akevia.com">info@akevia.com</a></li>
-                    </ul>
                   </div>
 
                   <div class="footer__widget-4">

@@ -155,7 +155,7 @@
                     <h4 class="service__title">Web Design</h4>
                   </div>
                   <div class="service__text">
-                    <p>Staying abreast of industry trends, we specialize in crafting and developing corporate websites, e-commerce portals and tailored intranets</p>
+                    <p>Staying abreast of industry trends, we specialize in crafting and developing corporate websites, e-commerce portals and tailored intranets.</p>
                   </div>
                   <div class="service__link">
                     <p><i class="fa-solid fa-arrow-right"></i></p>
@@ -170,7 +170,7 @@
                     <h4 class="service__title">Branding & Communications</h4>
                   </div>
                   <div class="service__text">
-                    <p>We create new brands and communication strategies for mass media with in-house planning, design, and execution</p>
+                    <p>We create new brands and communication strategies for mass media with in-house planning, design, and execution.</p>
                   </div>
                   <div class="service__link">
                     <p><i class="fa-solid fa-arrow-right"></i></p>
@@ -182,10 +182,10 @@
                 <div class="service__item  animation_home1_service" data-service="3">
                   <div class="service__number"><span>03</span></div>
                   <div class="service__title-wrapper">
-                    <h4 class="service__title">Digital <br>Maketing</h4>
+                    <h4 class="service__title">Digital <br>Marketing</h4>
                   </div>
                   <div class="service__text">
-                    <p>We plan, design, and execute digital media strategies, including campaigns on social media and Google Ads. Moreover, we provide consultancy and training on the subject to the business sector</p>
+                    <p>We plan, design, and execute digital media strategies, including campaigns on social media and Google Ads. Moreover, we provide consultancy and training on the subject to the business sector.</p>
                   </div>
                   <div class="service__link">
                     <p><i class="fa-solid fa-arrow-right"></i></p>
@@ -202,6 +202,70 @@
   </section>
   <!-- Service area end -->
 
+   <!-- Portfolio area start -->
+   <section class="portfolio__area pb-140">
+    <div class="container">
+      <div class="row top_row">
+
+        <h2 class="portfolio__text">work</h2>
+        <div class="portfolio__list-1">
+          <div class="portfolio__item">
+            <a href="portfolio-details.html"><img class="mover" src="<?php echo get_template_directory_uri(  ).'/imgs/akevia/oc.jpg'; ?>"
+                alt="Portfolio Image"></a>
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">Owens Corning</h3>
+              <p>Social Media</p>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <a href="#"><img src="<?php echo get_template_directory_uri(  ).'/imgs/akevia/cmx2.jpg'; ?>" alt="Portfolio Image"></a>
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">CEMEX</h3>
+              <p>Branding & Communication</p>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <a href="#"><img src="<?php echo get_template_directory_uri(  ).'/imgs/akevia/kronos.jpg'; ?>" alt="Portfolio Image"></a>
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">Kronos</h3>
+              <p>Web Development</p>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <a href="#"><img src="<?php echo get_template_directory_uri(  ).'/imgs/akevia/panel-rey.jpg'; ?>" alt="Portfolio Image"></a>
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">Panel Rey</h3>
+              <p>Branding & Comunnication</p>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <a href="#"><img src="<?php echo get_template_directory_uri(  ).'/imgs/akevia/bat.jpg'; ?>" alt="Portfolio Image"></a>
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">BAT</h3>
+              <p>Social Media</p>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <a href="#"><img src="<?php echo get_template_directory_uri(  ).'/imgs/akevia/vertura.jpg'; ?>" alt="Portfolio Image"></a>
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">Vertura</h3>
+              <p>Branding & Comunnication</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row_bottom">
+        <div class="col-xxl-12">
+          <div class="portfolio__btn btn_wrapper" data-speed="1" data-lag="0.2">
+            <!-- <a class="wc-btn-secondary btn-hover btn-item" href="portfolio.html"><span></span>View <br>all
+              projects <i class="fa-solid fa-arrow-right"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio area end -->
 
 </main>
 
